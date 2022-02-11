@@ -1,0 +1,7 @@
+{
+    "id": "serial", 
+    "date": "date",
+    "summary": "text",
+    "body": "text",
+    "priority": "smallint"
+}

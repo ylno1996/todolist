@@ -1,7 +1,47 @@
-doctype html
+doctype html 
 html(lang="ko")
-    heed 
-        title Todo-List
+    head 
+        title TodoList 노현우
+        link(rel="stylesheet" href="https://unpkg.com/mvp.css")
     body 
-        h1 ToDo List! 
-        footer #{new Date().getFullYear()} ylno1996 
+        header 
+            p Todo를 볼 날짜를 선택해주세요
+            form
+                input(type="date")
+            form
+                button(value="등록")
+            form 
+                button(value="삭제")
+        main 
+            ul
+                li
+                    input(type="checkbox")
+                    a(href="") 
+                li
+                    input(type="checkbox")
+                    a(href="") 
+                li
+                    input(type="checkbox")
+                    a(href="") 
+                li
+                    input(type="checkbox")
+                    a(href="") 
+                li
+                    input(type="checkbox")
+                    a(href="") 
+                li
+                    input(type="checkbox")
+                    a(href="") 
+                li
+                    input(type="checkbox")
+                    a(href="") 
+                li
+                    input(type="checkbox")
+                    a(href="") 
+                li
+                    input(type="checkbox")
+                    a(href="") 
+                li
+                    input(type="checkbox")
+                    a(href="") 
+            .paging  페이징
