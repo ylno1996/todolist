@@ -1,47 +1,18 @@
 doctype html 
 html(lang="ko")
     head 
-        title TodoList 노현우
+        title TodoList By Hanyu
         link(rel="stylesheet" href="https://unpkg.com/mvp.css")
     body 
-        header 
-            p Todo를 볼 날짜를 선택해주세요
-            form
-                input(type="date")
-            form
-                button(value="등록")
-            form 
-                button(value="삭제")
-        main 
-            ul
-                li
-                    input(type="checkbox")
-                    a(href="") 
-                li
-                    input(type="checkbox")
-                    a(href="") 
-                li
-                    input(type="checkbox")
-                    a(href="") 
-                li
-                    input(type="checkbox")
-                    a(href="") 
-                li
-                    input(type="checkbox")
-                    a(href="") 
-                li
-                    input(type="checkbox")
-                    a(href="") 
-                li
-                    input(type="checkbox")
-                    a(href="") 
-                li
-                    input(type="checkbox")
-                    a(href="") 
-                li
-                    input(type="checkbox")
-                    a(href="") 
-                li
-                    input(type="checkbox")
-                    a(href="") 
-            .paging  페이징
+        header
+            h2 Welcome to the Todo List page made by 'Hanyu Roh'
+                h3 Please insert your id into "ID" and click "Confirm" to see your Todos
+                h4 If you don't have an ID, Create New one by clicking "Sign Up"
+            form#sign-in    
+                input(type="text", placeholder="ID")
+                button(type="submit") Confirm
+            button#sign-up(type="submit") Sign Up
+        main
+            img(src="/img/todotestimg.jpg", alt="이미지 들어갈 곳")
+        include partials/script    
+    include partials/footer
