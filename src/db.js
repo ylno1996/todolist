@@ -3,8 +3,8 @@ import Client from "pg/lib/client";
 
 
 const db = new Client({
-    user: 'hanyu',
-    password: '5555',
+    user: 'todo',
+    password: 'test5555',
     host: 'localhost',
     database: 'todolist',
     port: 5432,

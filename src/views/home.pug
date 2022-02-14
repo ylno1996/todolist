@@ -8,9 +8,9 @@ html(lang="ko")
             h2 Welcome to the Todo List page made by 'Hanyu Roh'
                 h3 Please insert your id into "ID" and click "Confirm" to see your Todos
                 h4 If you don't have an ID, Create New one by clicking "Sign Up"
-            form#sign-in    
-                input(type="text", placeholder="ID")
-                button(type="submit") Confirm
+            form#sign-in(active="", method="GET")    
+                input(type="text", placeholder="ID", name="user", maxlength="10" ,requierd="requierd")
+                button(type="submit") Log-In
             button#sign-up(type="submit") Sign Up
         main
             img(src="/img/todotestimg.jpg", alt="이미지 들어갈 곳")
